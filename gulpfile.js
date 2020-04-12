@@ -53,3 +53,4 @@ gulp.task('webserver', function() {
     }));
 });
 
+gulp.task('default', gulp.parallel(['webserver', 'watch']));
